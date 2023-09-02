@@ -1,0 +1,200 @@
+/*amzn*/
+
+.btnAmazon {
+    border-radius: 4px;
+    background-color: #2d266d;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family:cursive
+  }
+  
+  .btnAmazon span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnAmazon span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnAmazon:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnAmazon:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /*rblx*/
+  
+  .btnRblx {
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #919191;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .btnRblx span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnRblx span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnRblx:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnRblx:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /*bg*/
+  
+  body {
+    background-image: url('bg.png');
+  }
+  
+  /*font*/
+  html { 
+    font-family: century-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /*home*/
+  .btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 32px;
+    font-size: 20px;
+  }
+  .btn:hover {
+    background-color: gray;
+  }
+  
+  /*honey*/
+  
+  .btnHoney {
+    border-radius: 4px;
+    background-color: #ff8647;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: cursive
+  }
+  
+  .btnHoney span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnHoney span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnHoney:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnHoney:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  /*slick*/
+  
+  .btnSlick {
+    border-radius: 4px;
+    background-color: #3a88fe;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: sans-serif
+  }
+  
+  .btnSlick span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btnSlick span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btnSlick:hover span {
+    padding-right: 25px;
+  }
+  
+  .btnSlick:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  
+  
